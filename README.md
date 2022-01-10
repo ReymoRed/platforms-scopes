@@ -30,7 +30,7 @@ pip3 install -r requirements.txt
 - This script will take approximately 2~ seconds to run
 
 ### Sample of Result
-![](Sample Result.png)
+![](SampleResult.png)
 
 ### Will you help me?!
 * If you want help me, You can complete the part of Sending Notification in Telegram and push it :)
