@@ -10,7 +10,7 @@ import json
 import os
 
 dir_path = os.path.abspath(os.path.dirname(__file__))
-logging.basicConfig(filename='app.log', filemode='w', level=logging.INFO,
+logging.basicConfig(filename=f'{dir_path}/app.log', filemode='w', level=logging.INFO,
                     format='%(levelname)s - %(message)s')
 this_time = datetime.now().strftime("%H:%M:%S")
 
