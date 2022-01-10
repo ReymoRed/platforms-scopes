@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 
 ---
 ### Sample of Result
-![](SampleResult.png)
+![image.png](https://reymolab.ir/SampleResult.png)
 ---
 ### Will you help me?!
 * If you want help me, You can complete the part of Sending Notification in Telegram and push it :)
