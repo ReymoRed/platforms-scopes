@@ -13,6 +13,11 @@ Yeswehack.
 ```shell
 pip3 install -r requirements.txt
 ```
+_____
+**Note: It is recommended that you run the following command to prevent unwanted notifications in the first run:**
+```shell
+./update_targets.sh
+```
 
 --- 
 ### Usage
