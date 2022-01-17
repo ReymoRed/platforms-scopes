@@ -29,6 +29,14 @@
           "target": "https://graphql.acorns.com"
         },
         {
+          "type": "api",
+          "target": "https://graphql.acorns.com2"
+        },
+        {
+          "type": "api",
+          "target": "https://graphql.acorns.com3"
+        },
+        {
           "type": "website",
           "target": "https://help.acorns.com"
         },
@@ -4677,6 +4685,72 @@
     }
   },
   {
+    "name": "Ethereum Foundation Bug Bounty Program",
+    "url": "https://bugcrowd.com/ethereum-od",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "Altair"
+        },
+        {
+          "type": "other",
+          "target": "Besu (Execution Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Erigon (Execution Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Go Ethereum (Execution Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Lighthouse (Consensus Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Nethermind  (Execution Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Nimbus (Consensus Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Phase 0"
+        },
+        {
+          "type": "other",
+          "target": "Prysm (Consensus Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Py-Evm (Execution Layer)"
+        },
+        {
+          "type": "other",
+          "target": "Teku (Consensus Layer)"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "api",
+          "target": "Ethereum Client API"
+        },
+        {
+          "type": "website",
+          "target": "Ethereum Client Web GUI"
+        }
+      ]
+    }
+  },
+  {
     "name": "Etsy",
     "url": "https://bugcrowd.com/etsy",
     "allows_disclosure": false,
@@ -5297,6 +5371,80 @@
     }
   },
   {
+    "name": "Geotab: VDP",
+    "url": "https://bugcrowd.com/geotab-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.bsmtechnologies.com"
+        },
+        {
+          "type": "website",
+          "target": "*.geotab.ca"
+        },
+        {
+          "type": "website",
+          "target": "*.geotab.com/"
+        },
+        {
+          "type": "website",
+          "target": "*.geotabinc.com"
+        },
+        {
+          "type": "website",
+          "target": "*.intendia.com"
+        },
+        {
+          "type": "website",
+          "target": "*.lat-lon.com"
+        },
+        {
+          "type": "website",
+          "target": "*.mapsbi.com"
+        },
+        {
+          "type": "website",
+          "target": "*.mobicorp.com"
+        },
+        {
+          "type": "website",
+          "target": "*.sentinelfm.com"
+        },
+        {
+          "type": "website",
+          "target": "*.smartchargerewards.com"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "*.geotabgov.us"
+        },
+        {
+          "type": "website",
+          "target": "gofleet*.geotab.com"
+        },
+        {
+          "type": "website",
+          "target": "gov*.geotab.com"
+        },
+        {
+          "type": "website",
+          "target": "my*.geotab.com"
+        },
+        {
+          "type": "website",
+          "target": "myadmin.geotab.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Growtopia",
     "url": "https://bugcrowd.com/growtopia",
     "allows_disclosure": false,
@@ -5669,15 +5817,15 @@
         },
         {
           "type": "website",
+          "target": "https://*.indeed.tech"
+        },
+        {
+          "type": "website",
           "target": "https://accounts.indeed.com"
         },
         {
           "type": "website",
           "target": "https://analytics.indeed.com"
-        },
-        {
-          "type": "api",
-          "target": "https://analyticsperf-analytics.indeed.com"
         },
         {
           "type": "ios",
@@ -5686,10 +5834,6 @@
         {
           "type": "website",
           "target": "https://billing.indeed.com"
-        },
-        {
-          "type": "api",
-          "target": "https://campaign-management-plugin.indeed.com"
         },
         {
           "type": "website",
@@ -5701,15 +5845,7 @@
         },
         {
           "type": "website",
-          "target": "https://evaluate.indeed.com"
-        },
-        {
-          "type": "website",
           "target": "https://events.indeed.com"
-        },
-        {
-          "type": "website",
-          "target": "https://itaportal.indeed.com"
         },
         {
           "type": "website",
@@ -5718,10 +5854,6 @@
         {
           "type": "android",
           "target": "https://play.google.com/store/apps/developer?id=Indeed+Jobs"
-        },
-        {
-          "type": "api",
-          "target": "https://reporting-plugin.indeed.com"
         },
         {
           "type": "website",
@@ -6483,6 +6615,10 @@
         {
           "type": "ios",
           "target": "BBW iOS app"
+        },
+        {
+          "type": "website",
+          "target": "https://customercare.bathandbodyworks.com/"
         },
         {
           "type": "website",
@@ -9260,6 +9396,25 @@
     }
   },
   {
+    "name": "Skroutz Public Managed Bug Bounty",
+    "url": "https://bugcrowd.com/skroutz",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 4500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://www.skroutz.gr/"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Skyscanner",
     "url": "https://bugcrowd.com/skyscanner",
     "allows_disclosure": true,
@@ -11471,6 +11626,10 @@
         },
         {
           "type": "website",
+          "target": "click.mail.23andme.com"
+        },
+        {
+          "type": "website",
           "target": "customercare.23andme.com"
         },
         {
@@ -12678,7 +12837,7 @@
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "partial",
-    "max_payout": 7000,
+    "max_payout": 7500,
     "targets": {
       "in_scope": [
         {
