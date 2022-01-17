@@ -29,14 +29,6 @@
           "target": "https://graphql.acorns.com"
         },
         {
-          "type": "api",
-          "target": "https://graphql.acorns.com2"
-        },
-        {
-          "type": "api",
-          "target": "https://graphql.acorns.com3"
-        },
-        {
           "type": "website",
           "target": "https://help.acorns.com"
         },
